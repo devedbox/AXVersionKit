@@ -15,6 +15,7 @@
 		DC23E9F51E8CFEF2003D86AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC23E9F31E8CFEF2003D86AD /* LaunchScreen.storyboard */; };
 		DC23EA001E8CFEF2003D86AD /* AXVersionKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC23E9FF1E8CFEF2003D86AD /* AXVersionKitTests.m */; };
 		DC23EA0B1E8CFEF2003D86AD /* AXVersionKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC23EA0A1E8CFEF2003D86AD /* AXVersionKitUITests.m */; };
+		DC23EA1B1E8CFFF9003D86AD /* AVKVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = DC23EA1A1E8CFFF9003D86AD /* AVKVersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		DC23EA061E8CFEF2003D86AD /* AXVersionKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AXVersionKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC23EA0A1E8CFEF2003D86AD /* AXVersionKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AXVersionKitUITests.m; sourceTree = "<group>"; };
 		DC23EA0C1E8CFEF2003D86AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC23EA191E8CFFF9003D86AD /* AVKVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVKVersion.h; sourceTree = "<group>"; };
+		DC23EA1A1E8CFFF9003D86AD /* AVKVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVKVersion.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,7 @@
 				DC23E9E91E8CFEF2003D86AD /* AppDelegate.m */,
 				DC23E9EB1E8CFEF2003D86AD /* ViewController.h */,
 				DC23E9EC1E8CFEF2003D86AD /* ViewController.m */,
+				DC23EA181E8CFF88003D86AD /* Classes */,
 				DC23E9EE1E8CFEF2003D86AD /* Main.storyboard */,
 				DC23E9F11E8CFEF2003D86AD /* Assets.xcassets */,
 				DC23E9F31E8CFEF2003D86AD /* LaunchScreen.storyboard */,
@@ -138,6 +142,15 @@
 				DC23EA0C1E8CFEF2003D86AD /* Info.plist */,
 			);
 			path = AXVersionKitUITests;
+			sourceTree = "<group>";
+		};
+		DC23EA181E8CFF88003D86AD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC23EA191E8CFFF9003D86AD /* AVKVersion.h */,
+				DC23EA1A1E8CFFF9003D86AD /* AVKVersion.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +292,7 @@
 				DC23E9ED1E8CFEF2003D86AD /* ViewController.m in Sources */,
 				DC23E9EA1E8CFEF2003D86AD /* AppDelegate.m in Sources */,
 				DC23E9E71E8CFEF2003D86AD /* main.m in Sources */,
+				DC23EA1B1E8CFFF9003D86AD /* AVKVersion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
