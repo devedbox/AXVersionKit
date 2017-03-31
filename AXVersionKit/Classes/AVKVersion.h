@@ -26,5 +26,82 @@
 #import <Foundation/Foundation.h>
 
 @interface AVKVersion : NSObject
-
+/// primaryGenreName.
+@property(readonly, copy, nonatomic) NSString *primaryGenreName;
+/// Artist id of the app.
+@property(readonly, copy, nonatomic) NSString *artistId;
+/// artworkUrl100.
+@property(readonly, copy, nonatomic) NSString *artworkUrl100;
+/// currency.
+@property(readonly, copy, nonatomic) NSString *currency;
+/// artworkUrl512.
+@property(readonly, copy, nonatomic) NSString *artworkUrl512;
+/// ipadScreenshotUrls.
+@property(readonly, copy, nonatomic) NSArray<NSString *> *ipadScreenshotUrls;
+/// fileSizeBytes.
+@property(readonly, nonatomic) NSUInteger fileSizeBytes;
+/// genres.
+@property(readonly, copy, nonatomic) NSArray<NSString *> *genres;
+/// languageCodesISO2A.
+@property(readonly, copy, nonatomic) NSArray<NSString *> *languageCodesISO2A;
+/// artworkUrl60.
+@property(readonly, copy, nonatomic) NSString *artworkUrl60;
+/// supportedDevices.
+@property(readonly, copy, nonatomic) NSArray<NSString *> *supportedDevices;
+/// trackViewUrl.
+@property(readonly, copy, nonatomic) NSString *trackViewUrl;
+/// description.
+@property(readonly, copy, nonatomic) NSString *description;
+/// version.
+@property(readonly, copy, nonatomic) NSString *version;
+/// bundleId.
+@property(readonly, copy, nonatomic) NSString *bundleId;
+/// artistViewUrl.
+@property(readonly, copy, nonatomic) NSString *artistViewUrl;
+/// releaseDate.
+@property(readonly, copy, nonatomic) NSString *releaseDate;
+/// appletvScreenshotUrls.
+@property(readonly, copy, nonatomic) NSArray<NSString *> *appletvScreenshotUrls;
+/// isGameCenterEnabled.
+@property(readonly, nonatomic) BOOL isGameCenterEnabled;
+/// wrapperType.
+@property(readonly, copy, nonatomic) NSString *wrapperType;
+/// genreIds.
+@property(readonly, copy, nonatomic) NSArray<NSString *> *genreIds;
+/// trackId.
+@property(readonly, copy, nonatomic) NSString *trackId;
+/// minimumOsVersion.
+@property(readonly, copy, nonatomic) NSString *minimumOsVersion;
+/// formattedPrice.
+@property(readonly, copy, nonatomic) NSString *formattedPrice;
+/// primaryGenreId.
+@property(readonly, copy, nonatomic) NSString *primaryGenreId;
+/// currentVersionReleaseDate.
+@property(readonly, copy, nonatomic) NSString *currentVersionReleaseDate;
+/// trackContentRating.
+@property(readonly, copy, nonatomic) NSString *trackContentRating;
+/// artistName.
+@property(readonly, copy, nonatomic) NSString *artistName;
+/// price
+@property(readonly, nonatomic) NSDecimalNumber *price;
+/// trackCensoredName.
+@property(readonly, copy, nonatomic) NSString *trackCensoredName;
+/// trackName.
+@property(readonly, copy, nonatomic) NSString *trackName;
+/// kind.
+@property(readonly, copy, nonatomic) NSString *kind;
+/// features.
+@property(readonly, copy, nonatomic) NSArray<NSString *> *features;
+/// contentAdvisoryRating.
+@property(readonly, copy, nonatomic) NSString *contentAdvisoryRating;
+/// screenshotUrls.
+@property(readonly, copy, nonatomic) NSArray<NSString *> *screenshotUrls;
+/// releaseNotes.
+@property(readonly, copy, nonatomic) NSString *releaseNotes;
+/// isVppDeviceBasedLicensingEnabled.
+@property(readonly, copy, nonatomic) NSString *isVppDeviceBasedLicensingEnabled;
+/// sellerName.
+@property(readonly, copy, nonatomic) NSString *sellerName;
+/// advisories.
+@property(readonly, copy, nonatomic) NSString *advisories;
 @end
