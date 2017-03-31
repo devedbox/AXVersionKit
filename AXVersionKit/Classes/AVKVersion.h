@@ -32,6 +32,8 @@
 @property(readonly, copy, nonatomic) NSString *artistId;
 /// artworkUrl100.
 @property(readonly, copy, nonatomic) NSString *artworkUrl100;
+/// sellerUrl.
+@property(readonly, copy, nonatomic) NSString *sellerUrl;
 /// currency.
 @property(readonly, copy, nonatomic) NSString *currency;
 /// artworkUrl512.
@@ -58,14 +60,20 @@
 @property(readonly, copy, nonatomic) NSString *bundleId;
 /// artistViewUrl.
 @property(readonly, copy, nonatomic) NSString *artistViewUrl;
+/// userRatingCountForCurrentVersion.
+@property(readonly, nonatomic) NSUInteger userRatingCountForCurrentVersion;
 /// releaseDate.
 @property(readonly, copy, nonatomic) NSString *releaseDate;
 /// appletvScreenshotUrls.
 @property(readonly, copy, nonatomic) NSArray<NSString *> *appletvScreenshotUrls;
+/// screenshotUrls.
+@property(readonly, copy, nonatomic) NSArray<NSString *> *screenshotUrls;
 /// isGameCenterEnabled.
 @property(readonly, nonatomic) BOOL isGameCenterEnabled;
 /// wrapperType.
 @property(readonly, copy, nonatomic) NSString *wrapperType;
+/// averageUserRatingForCurrentVersion.
+@property(readonly, nonatomic) NSUInteger averageUserRatingForCurrentVersion;
 /// genreIds.
 @property(readonly, copy, nonatomic) NSArray<NSString *> *genreIds;
 /// trackId.
@@ -92,16 +100,15 @@
 @property(readonly, copy, nonatomic) NSString *kind;
 /// features.
 @property(readonly, copy, nonatomic) NSArray<NSString *> *features;
-/// contentAdvisoryRating.
-@property(readonly, copy, nonatomic) NSString *contentAdvisoryRating;
-/// screenshotUrls.
-@property(readonly, copy, nonatomic) NSArray<NSString *> *screenshotUrls;
 /// releaseNotes.
 @property(readonly, copy, nonatomic) NSString *releaseNotes;
 /// isVppDeviceBasedLicensingEnabled.
-@property(readonly, copy, nonatomic) NSString *isVppDeviceBasedLicensingEnabled;
+@property(readonly, nonatomic) BOOL isVppDeviceBasedLicensingEnabled;
 /// sellerName.
 @property(readonly, copy, nonatomic) NSString *sellerName;
-/// advisories.
+#pragma mark - Content rating.
+/// Advisories items of content.
 @property(readonly, copy, nonatomic) NSString *advisories;
+/// Advisory rating of content.
+@property(readonly, copy, nonatomic) NSString *contentAdvisoryRating;
 @end
